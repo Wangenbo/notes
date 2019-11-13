@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS-trangle</title>
+    <style>
+        .box{
+            width: 0;
+            height: 0;
+            border-width: 100px;
+            border-style: solid;
+            display: inline-block;
+        }
+        .box2{
+            border-color: red yellow green black;
+        }
+
+        .box3{
+            border-color: red transparent transparent transparent;
+        }
+
+        .box4{
+            border-color: transparent red transparent transparent;
+        }
+
+        .box5{
+            border-color: transparent transparent red transparent;
+        }
+
+        .box6{
+            border-color: transparent transparent transparent red;
+        }
+        .arrow{
+            position: relative;
+        }
+        .arrow:before, .arrow:after{
+            position: absolute;
+            content: "";
+            border-top: 100px transparent solid;
+            border-left: 100px transparent solid;
+            border-bottom: 100px transparent solid;
+            border-right: 100px #fff solid;
+        }
+        .arrow:before{
+            border-right: 100px red solid;
+        }
+        .arrow:after{
+            left: 10px;
+            border-right: 100px #fff solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+    <div class="box box6"></div>
+    <div></div>
+    <div class="arrow"></div>
+</body>
+</html>
