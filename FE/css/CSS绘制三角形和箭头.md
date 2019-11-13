@@ -69,3 +69,7 @@
     border-right: 100px #fff solid;
 }
 ```
+
+### 源码地址
+[css 绘制三角形和箭头](https://github.com/Wangenbo/notes/blob/master/FE/demo/css-triangle.html)
+
