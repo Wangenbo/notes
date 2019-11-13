@@ -115,5 +115,5 @@ console.log(obj4.age); //get age
 数据描述符和存取描述符是不能同时存在的。
 
 #### 源码
-[点击查看]()
+[点击查看](https://github.com/Wangenbo/notes/blob/master/FE/demo/Object.defineProperty%E7%AE%80%E4%BB%8B.html)
 
