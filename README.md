@@ -19,6 +19,4 @@
 - [ubuntu安装MySql及设置远程访问.md](https://github.com/Wangenbo/notes/blob/master/Tools/ubuntu%E5%AE%89%E8%A3%85MySql%E5%8F%8A%E8%AE%BE%E7%BD%AE%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE.md)
 
 
-## 管理
-
-视差滚动
+## 项目管理

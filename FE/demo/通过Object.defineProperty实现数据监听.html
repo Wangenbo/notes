@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var data = {
+        name: 'zhangsan',
+        friends: [1,2,3]
+    }
+
+    observer(data);
+
+    console.log(data.name);
+    data.name = 'lisi';
+    data.friends[0] = 4;
+
+    function observer(data) {
+        if(!data || typeof data !== 'object') return;
+
+        for(var key in data) {
+            let val = data[key];
+
+            Object.defineProperty(data, key, {
+                enumerable: true,
+                configurable: true,
+                get: function() {
+                    console.log(`get ${val}`);
+                    return val;
+                },
+                set: function(newVal) {
+                    console.log(`changes happen: ${val} => ${newVal}`);
+                    val = newVal;
+                }
+            })
+
+            // console.log(val, typeof val);
+            if(typeof val === 'object') {
+                observer(val);
+            }
+        }
+    }
+</script>
+</body>
+</html>
