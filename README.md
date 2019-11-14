@@ -10,6 +10,7 @@
 ### Javascript
 - [ES6 学习笔记](https://github.com/Wangenbo/notes/blob/master/FE/js/ES6.md)
 - [Object.defineProperty简介](https://github.com/Wangenbo/notes/blob/master/FE/js/Object.defineProperty%E7%AE%80%E4%BB%8B.md)
+- [通过Object.defineProperty实现数据监听](https://github.com/Wangenbo/notes/blob/master/FE/js/%E9%80%9A%E8%BF%87Object.defineProperty%E5%AE%9E%E7%8E%B0%E6%95%B0%E6%8D%AE%E7%9B%91%E5%90%AC.md)
 
 
 ## 工具
