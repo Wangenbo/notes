@@ -6,6 +6,8 @@
 
 ### CSS
 - [CSS绘制三角形和箭头](https://github.com/Wangenbo/notes/blob/master/FE/css/CSS%E7%BB%98%E5%88%B6%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E7%AE%AD%E5%A4%B4.md)
+- [浏览器中设置小于12px文字的方法]()
+
 
 ### Javascript
 - [ES6 学习笔记](https://github.com/Wangenbo/notes/blob/master/FE/js/ES6.md)
