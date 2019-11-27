@@ -192,3 +192,6 @@ ViewModel 充当数据转换器，将Model信息转换为View信息，将命令�
     </script>
 
 ```
+
+#### 代码
+[点击查看](https://github.com/Wangenbo/notes/blob/master/FE/demo/mvvm%E5%8D%95%E5%90%91%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A.html)

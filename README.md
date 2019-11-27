@@ -14,6 +14,7 @@
 - [Object.defineProperty简介](https://github.com/Wangenbo/notes/blob/master/FE/js/Object.defineProperty%E7%AE%80%E4%BB%8B.md)
 - [通过Object.defineProperty实现数据监听](https://github.com/Wangenbo/notes/blob/master/FE/js/%E9%80%9A%E8%BF%87Object.defineProperty%E5%AE%9E%E7%8E%B0%E6%95%B0%E6%8D%AE%E7%9B%91%E5%90%AC.md)
 - [观察者模式/发布订阅模式](https://github.com/Wangenbo/notes/blob/master/FE/js/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.md)
+- [mvvm单向数据绑定](https://github.com/Wangenbo/notes/blob/master/FE/js/%E5%AE%9E%E7%8E%B0mvvm%E5%8D%95%E5%90%91%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A.md)
 
 
 ## 工具
