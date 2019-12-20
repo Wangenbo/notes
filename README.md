@@ -26,3 +26,4 @@
 
 ## 项目管理
 - [技术管理者能力模型](https://github.com/Wangenbo/notes/blob/master/Management/%E6%8A%80%E6%9C%AF%E7%AE%A1%E7%90%86%E8%80%85%E8%83%BD%E5%8A%9B%E6%A8%A1%E5%9E%8B.md)
+- [简述系统架构-小白入门](https://github.com/Wangenbo/notes/blob/master/Management/%E7%AE%80%E8%BF%B0%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84.md)
