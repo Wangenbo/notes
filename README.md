@@ -13,6 +13,7 @@
 - [ES6 基础知识](https://github.com/Wangenbo/notes/blob/master/FE/js/ES6%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
 - [ES6 学习笔记](https://github.com/Wangenbo/notes/blob/master/FE/js/ES6.md)
 - [ES6异步操作](https://github.com/Wangenbo/notes/blob/master/FE/js/ES6%E5%BC%82%E6%AD%A5%E6%93%8D%E4%BD%9C.md)
+- [ES6面向对象及模块系统](https://github.com/Wangenbo/notes/blob/master/FE/js/ES6%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%8F%8A%E6%A8%A1%E5%9D%97%E7%B3%BB%E7%BB%9F.md)
 - [Object.defineProperty简介](https://github.com/Wangenbo/notes/blob/master/FE/js/Object.defineProperty%E7%AE%80%E4%BB%8B.md)
 - [通过Object.defineProperty实现数据监听](https://github.com/Wangenbo/notes/blob/master/FE/js/%E9%80%9A%E8%BF%87Object.defineProperty%E5%AE%9E%E7%8E%B0%E6%95%B0%E6%8D%AE%E7%9B%91%E5%90%AC.md)
 - [观察者模式/发布订阅模式](https://github.com/Wangenbo/notes/blob/master/FE/js/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.md)

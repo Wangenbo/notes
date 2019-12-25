@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ES6面向对象</title>
+</head>
+<body>
+
+    <script>
+        //ES5中的写法
+        function Person(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        Person.prototype.show = function() {
+            alert(this.name);
+        }
+
+        let person = new Person('red', 9);
+
+        person.show();
+
+        //继承-参考
+        function Worker(name, age, job) {
+            Person.call(this, name, age);
+            this.job = job;
+        }
+        Worker.prototype =  new Person();
+        Worker.prototype.constructor = Worker;
+        Worker.prototype.showJob = function() {
+            alert(this.job);
+        }
+
+        let work = new Worker('heiheihe', 12, '工人');
+
+        work.showJob();
+    </script>
+    <script>
+        //ES6中的写法
+        class Person1{
+            constructor(name, age) {
+                this.name = name;
+                this.age = age;
+            }
+            show() {
+                alert(this.name);
+            }
+        }
+
+        let person1 = new Person1('zhangsan', 10);
+
+        person1.show();
+
+        // 继承
+        class Worker1 extends Person1 {
+            constructor(name, age, job) {
+                super(name, age);
+                this.job = job;
+            }
+
+            showJob() {
+                alert(this.job);
+            }
+        }
+        let worker1 = new Worker1('lisi', 10, '老板');
+
+        worker1.showJob();
+    </script>
+</body>
+</html>
