@@ -20,6 +20,7 @@
 - [观察者模式/发布订阅模式](https://github.com/Wangenbo/notes/blob/master/FE/js/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.md)
 - [mvvm单向数据绑定](https://github.com/Wangenbo/notes/blob/master/FE/js/%E5%AE%9E%E7%8E%B0mvvm%E5%8D%95%E5%90%91%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A.md)
 - [正则表达式简介](https://github.com/Wangenbo/notes/blob/master/FE/js/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
+- [node.js简介](https://github.com/Wangenbo/notes/blob/master/FE/js/node.js%E7%AE%80%E4%BB%8B.md)
 
 
 ## 工具
