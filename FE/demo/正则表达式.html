@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>正则表达式</title>
+</head>
+<body>
+    <textarea id="txt1" cols="30" rows="10"></textarea>
+    <button id="btn1">按钮</button>
+    <script>
+    // 段落前加空格
+    window.onload = function() {
+        let txt1 = document.getElementById('txt1');
+        let btn1 = document.getElementById('btn1');
+
+        btn1.onclick = function() {
+            txt1.value = txt1.value.replace(/^/gm, '  ');
+        }
+    }
+
+    let str = 'http://www.baidu.com'
+    let reg = /^https?:\/\//;
+
+    if(reg.test(str)) {
+        alert('是个网址');
+    }else{
+        alert('不是网址');
+    }
+    </script>
+</body>
+</html>
