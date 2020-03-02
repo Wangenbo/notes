@@ -30,7 +30,7 @@
 - [ubuntu下安装nodejs](https://github.com/Wangenbo/notes/blob/master/Tools/ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85nodejs.md)
 - [ubuntu安装MySql及设置远程访问.md](https://github.com/Wangenbo/notes/blob/master/Tools/ubuntu%E5%AE%89%E8%A3%85MySql%E5%8F%8A%E8%AE%BE%E7%BD%AE%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE.md)
 - [babel安装及使用](https://github.com/Wangenbo/notes/blob/master/Tools/babel%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8.md)
-- [webpack详细介绍](https://github.com/Wangenbo/notes/blob/master/Tools/webpack.md)
+- [webpack详细介绍](https://github.com/Wangenbo/notes/blob/master/Tools/%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8Dwebpack.md)
 
 
 ## 项目管理
