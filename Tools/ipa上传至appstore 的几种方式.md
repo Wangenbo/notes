@@ -17,13 +17,13 @@ Xcode11不再继续支持Application Loader，上传应用至appstore。以下�
 在这个路径下，双击运行这个iTMSTransporter，会自动下载，根据网速，等一下，当提示进程结束时说明下载完了，就可以关闭了，重启xcode之后重新上传就可以了。
 
 ### 二、transporter 可视化上传（推荐）
-![image.png](https://upload-images.jianshu.io/upload_images/2574502-f42caeb854690737.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Snipaste_2020-03-03_19-16-40.png](https://i.loli.net/2020/03/03/VnW8U1s7XExTLP4.png)
 
 功能类似 Application Loader 更简洁方便。
 下载地址（https://apps.apple.com/cn/app/transporter/id1450874784?mt=12）
 
 有的时候transporter 会一直卡在“正在验证APP-正在通过APP store进行认证”
-![image.png](https://upload-images.jianshu.io/upload_images/2574502-eee5f9125f7f4d12.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Snipaste_2020-03-02_23-00-57.png](https://i.loli.net/2020/03/03/nMXs2WShNu1jDi9.png)
 
 解决步骤
 1. cd ~
@@ -41,7 +41,7 @@ Xcode11不再继续支持Application Loader，上传应用至appstore。以下�
 
 命令行操作：
 1. 运行 ` xcrun altool` 显示如下，证明已经安装xcrun altool 工具
-![image.png](https://upload-images.jianshu.io/upload_images/2574502-88fcaffe9c7ecae6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![2574502-88fcaffe9c7ecae6.png](https://i.loli.net/2020/03/03/yWSmdGXtMpHC2hI.png)
 2.验证包
 ```
 xcrun altool --validate-app -f 包体绝对路径.ipa -t iOS -u 用户名 -p 密码
