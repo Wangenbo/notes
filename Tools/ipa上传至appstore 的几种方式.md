@@ -61,6 +61,7 @@ xcrun altool --upload-app -f 包体绝对路径.ipa -t iOS -u 用户名 -p 密�
 ```
 出现上述提示，更换动态密码即可。（需要使用动态密，而不是原来账号的密码。需要先登录账号，获取到动态密码）
 获取方式登录（[https://appleid.apple.com/](https://appleid.apple.com/)）
+![Snipaste_2020-03-03_19-06-13.png](https://i.loli.net/2020/03/03/T2sO5NruUKGeBXk.png)
 
 - 问题二：
 上传包过程中（--upload-app）一直没有任何反应，等待时间过长。
