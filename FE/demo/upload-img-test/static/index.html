@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <input type="file" id="input">
+    <script>
+        let input = document.getElementById('input');
+
+        input.onchange = function(e) {
+            console.log(e.target.files[0])
+            upload(JSON.stringify(e.target.files[0]));
+        }
+
+        function upload(data) {
+            const formData = new FormData()
+            formData.append('file', data);
+
+            axios({
+                method: 'post',
+                url: '/upload',
+                data: formData,
+                headers: {
+                    'Content-Type': 'multipart/form-data'
+                }
+            }).then(
+                    res => {
+                        console.log('上传成功！')
+                    }
+                )
+                .catch(
+                    err => {
+                        console.log('上传失败！')
+                    }
+                )
+        }
+    </script>
+</body>
+</html>
