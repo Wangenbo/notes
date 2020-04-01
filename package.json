@@ -1,6 +1,6 @@
 {
   "name": "notes",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "日常学习内容笔记",
   "main": "index.js",
   "scripts": {
