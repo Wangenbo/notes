@@ -1,0 +1,36 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "日常学习内容笔记",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wangenbo/notes.git"
+  },
+  "keywords": [
+    "学习",
+    "笔记",
+    "前端",
+    "规范",
+    "开发流程"
+  ],
+  "author": "Wilbur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wangenbo/notes/issues"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "homepage": "https://github.com/Wangenbo/notes#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.3"
+  }
+}
