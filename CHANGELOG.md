@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/Wangenbo/notes/compare/v1.1.0...v1.2.0) (2020-04-08)
+
+
+### Features
+
+* 新增CSS3实现网站变灰色 ([808e693](https://github.com/Wangenbo/notes/commit/808e69329c11404edf39eec3865008fc4f4f7256))
+* 新增filter与fixed 冲突的解决方案 ([b7fefa2](https://github.com/Wangenbo/notes/commit/b7fefa2963f9fc71338fbf9b57bde8545111c5f6))
+* 新增前端性能规范文档 ([d5976b6](https://github.com/Wangenbo/notes/commit/d5976b6bddecc28dd177c7960881bdefcccde2de))
+
+
+### Bug Fixes
+
+* 修复链接问题 ([d534ff7](https://github.com/Wangenbo/notes/commit/d534ff77b8eb9b611735c94e345864a866ba6e03))
+
 ## [1.1.0](https://github.com/Wangenbo/notes/compare/v1.0.5...v1.1.0) (2020-04-01)
 
 
