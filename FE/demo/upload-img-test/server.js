@@ -49,7 +49,7 @@ app.use(static('./static'));
 function upload (fname, localFile) {
     putExtra.fname = fname;
 
-    formUploader.put(uploadToken, null, localFile, putExtra, function (respErr,
+    formUploader.putFile(uploadToken, null, localFile, putExtra, function (respErr,
         respBody, respInfo) {
         if (respErr) {
             throw respErr;
