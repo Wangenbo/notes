@@ -3,7 +3,9 @@ const Router = require('koa-router');
 const static = require('koa-static');
 const body = require('koa-better-body');
 const convert = require('koa-convert');
+const ejs = require('koa-ejs');
 let qiniu = require("qiniu");
+
 
 let bucket = 'wilbur';
 
@@ -29,6 +31,12 @@ let putExtra = new qiniu.form_up.PutExtra();
 
 app.use(convert(body()));
 
+ejs(app, {
+    root: './template',
+    layout: false,
+    viewExt: 'ejs'
+});
+
 router.get('/', ctx => {
     ctx.body = 'welcome';
 })
@@ -36,9 +44,12 @@ router.get('/', ctx => {
 router.post('/upload', async ctx => {
     let file = ctx.request.fields.file;
 
-    console.log(file);
     //调用uploadFile上传
-    upload('test-img.png', file);
+    upload(file[0].name, file[0].path, (res)=> {
+    });
+
+    await ctx.render('upload', {name: 'res'});
+
 });
 
 
@@ -46,17 +57,17 @@ router.post('/upload', async ctx => {
 app.use(router.routes());
 app.use(static('./static'));
 
-function upload (fname, localFile) {
+function upload (fname, localFile, callback) {
     putExtra.fname = fname;
 
-    formUploader.putFile(uploadToken, null, localFile, putExtra, function (respErr,
+    formUploader.putFile(uploadToken, fname, localFile, putExtra, function (respErr,
         respBody, respInfo) {
         if (respErr) {
             throw respErr;
         }
 
         if (respInfo.statusCode == 200) {
-            console.log(respBody);
+            callback(respBody);
         } else {
             console.log(respInfo.statusCode);
             console.log(respBody);
