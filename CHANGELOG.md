@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/Wangenbo/notes/compare/v1.2.0...v1.3.0) (2020-04-14)
+
+
+### Features
+
+* 前端埋点案例.html ([ae9505c](https://github.com/Wangenbo/notes/commit/ae9505cc5230c02bb2dca4e3448811b18d69b83c))
+* 新增前端安全规范文档 ([cf16ef2](https://github.com/Wangenbo/notes/commit/cf16ef265b390465f17b5e26f0b502c136bd6899))
+* 新增前端监控和缅甸介绍方案.md ([524d617](https://github.com/Wangenbo/notes/commit/524d6174a9222dbdec30ef7f225985c296bdd893))
+* 新增接口文档规范 ([b4f50bd](https://github.com/Wangenbo/notes/commit/b4f50bdf97959f9f553b142c710d67b49ffe447b))
+* 新增接口文档规范内容 ([fb8bf1b](https://github.com/Wangenbo/notes/commit/fb8bf1b2f6f7d03bb8e41609b2d5ed00b07d3ac5))
+
+
+### Bug Fixes
+
+* 修复.gitignore 中对idea 文件的过滤 ([f283582](https://github.com/Wangenbo/notes/commit/f2835825554396e9ab0bef04265abf281f49bd2a))
+* 修复上传图片到七牛云的代码 ([b46d603](https://github.com/Wangenbo/notes/commit/b46d603fb6512b4c2fc8dc7ec771372be2146cc8))
+
 ## [1.2.0](https://github.com/Wangenbo/notes/compare/v1.1.0...v1.2.0) (2020-04-08)
 
 
