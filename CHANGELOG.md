@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/Wangenbo/notes/compare/v1.3.0...v1.4.0) (2020-04-18)
+
+
+### Features
+
+* 新增UI设计师常用面试题 ([c813411](https://github.com/Wangenbo/notes/commit/c8134115d72e91392663090be4746e898397e796))
+* 新增前端工程规范初稿内容 ([39e1595](https://github.com/Wangenbo/notes/commit/39e15950bb8ffea38662c9b08239afbb42fe01c7))
+* 新增前端工程规范初稿内容 ([e250966](https://github.com/Wangenbo/notes/commit/e250966e3ddec3d94addf476619a3cb38634099e))
+* 新增通过Performance实现前端性能监控文档的编写 ([7d27325](https://github.com/Wangenbo/notes/commit/7d2732508fcfcf545982f5d3978d5bc66b37343d))
+
+
+### Bug Fixes
+
+* 修复使用node 操作mysql 案例不能请求的问题 ([933d5e1](https://github.com/Wangenbo/notes/commit/933d5e14981fcdbd0e2d129379c4b195a5ffeb07))
+* 修改前端埋点案例 ([999a9c9](https://github.com/Wangenbo/notes/commit/999a9c9c43fe167eb49fce0cf1b9d6869217b931))
+* 更新changelog ([ca50ba1](https://github.com/Wangenbo/notes/commit/ca50ba191eef0709c9b7adf632703b0e331392ed))
+
 ## [1.3.0](https://github.com/Wangenbo/notes/compare/v1.2.0...v1.3.0) (2020-04-14)
 
 
