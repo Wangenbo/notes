@@ -83,6 +83,8 @@ Body 部分是对本次 commit 的详细描述，可以分成多行。
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
     ```
+   
+6. test
 
 >commitlint官网：https://commitlint.js.org/#/reference-rules
 
