@@ -67,6 +67,17 @@ xcrun altool --upload-app -f 包体绝对路径.ipa -t iOS -u 用户名 -p 密�
 上传包过程中（--upload-app）一直没有任何反应，等待时间过长。
 解决方案：--upload-app 命令前增加sudo 使用管理员账号登录。
 
->至此，三方方案可以满足大多数情况的应用上传，还有一种使用秘钥上传的方式未经验证。待更新。
+### xcrun altool秘钥上传
 
+1. 登录开发者后台，获取秘钥
+![后台](http://images.wangenbo.com/Snipaste_2020-04-30_15-46-34.png)
+![后台](http://images.wangenbo.com/Snipaste_2020-04-30_15-47-46.png)
+2. 验证APP
+```
+   xcrun altool --validate-app -f ./xxx.ipa -t ios --apiKey xxxx --apiIssuer xxx --verbose
+```
+3. 上传APP
 
+```
+    xcrun altool --upload-app -f xxx.ipa -t ios --apiKey xxx --apiIssuer xxx --verbose
+```
