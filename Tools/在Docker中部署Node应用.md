@@ -73,7 +73,7 @@
     CMD [ "npm", "start" ]
     ```
 
-## 构建Image
+## 3. 构建Image
 
 > 在你Dockerfile文件所在的目录下运行下面的命令来构建一个Image.
 
@@ -81,7 +81,7 @@
 
 2. 查看镜像 `docker images`
 
-## 运行镜像
+## 4. 运行镜像
 
 1. 运行镜像 `docker run -d -p 8888:8888 [IMAGE ID]`
 
@@ -89,7 +89,7 @@
 
 2. 查看容器 `docker ps` 或者 `docker container ls -a`
 
-## 测试
+## 5. 测试
 
 - 通过curl 访问
 
@@ -97,7 +97,7 @@
 
 - 或者通过浏览器访问 IP + 端口号
 
-## 常用命令
+## 6. 常用命令
 
 - docker logs [Container ID] 查看容器日志
 - docker rm [Container ID] 删除容器
