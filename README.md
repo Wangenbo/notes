@@ -35,11 +35,13 @@
 - [ipa上传至appstore 的几种方式](https://github.com/Wangenbo/notes/blob/master/Tools/ipa%E4%B8%8A%E4%BC%A0%E8%87%B3appstore%20%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E5%BC%8F.md)
 - [使用ngrok实现内网穿透](https://github.com/Wangenbo/notes/blob/master/Tools/%E4%BD%BF%E7%94%A8ngrok%E5%AE%9E%E7%8E%B0%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F.md)
 - [树莓派中常用的命令汇总](https://github.com/Wangenbo/notes/blob/master/Tools/%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB.md)
+- [在Docker中部署Node应用](https://github.com/Wangenbo/notes/blob/master/Tools/%E5%9C%A8Docker%E4%B8%AD%E9%83%A8%E7%BD%B2Node%E5%BA%94%E7%94%A8.md)
 
 ## 项目管理
 - [技术管理者能力模型](https://github.com/Wangenbo/notes/blob/master/Management/%E6%8A%80%E6%9C%AF%E7%AE%A1%E7%90%86%E8%80%85%E8%83%BD%E5%8A%9B%E6%A8%A1%E5%9E%8B.md)
 - [简述系统架构-小白入门](https://github.com/Wangenbo/notes/blob/master/Management/%E7%AE%80%E8%BF%B0%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84.md)
 - [前端基建](https://github.com/Wangenbo/notes/blob/master/Management/%E5%89%8D%E7%AB%AF%E5%9F%BA%E5%BB%BA.md)
+- [如何推动技术团队的成长](https://github.com/Wangenbo/notes/blob/master/Management/%E5%A6%82%E4%BD%95%E6%8E%A8%E5%8A%A8%E6%8A%80%E6%9C%AF%E5%9B%A2%E9%98%9F%E7%9A%84%E6%88%90%E9%95%BF.md)
 
 ## 工作流程构建
 - [Git提交规范及changelog 生成](https://github.com/Wangenbo/notes/blob/master/Workflow/Git%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83.md)
