@@ -65,8 +65,8 @@
     ![upload-app](http://images.wangenbo.com/Snipaste_2020-05-20_08-45-18.png)
 5. 添加版本
     > 添加版本 应与APP内应用版本号一致
-           
-           
+
+
 6. 上传构建的版本包
 
     ![upload-app](http://images.wangenbo.com/Snipaste_2020-05-20_08-48-23.png)
@@ -77,4 +77,6 @@
      ![upload-app](http://images.wangenbo.com/save_image.png)
 9. 点击提交以供审核
      ![upload-app](http://images.wangenbo.com/commit_image.png)
-    
+10. 勾选广告标识符（IDFA）
+     ![upload-app](http://images.wangenbo.com/Snipaste_2020-06-07_15-55-05.png)
+
